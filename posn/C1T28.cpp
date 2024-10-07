@@ -3,6 +3,8 @@ using namespace std;
 int n;
 char c1,c2,c3,c4;
 int main(){
+     ios_base::sync_with_stdio(false);
+     cin.tie(NULL);
      cin>>n;
      cin>>c1>>c2>>c3>>c4;
      for(int i=0;i<n;++i){
